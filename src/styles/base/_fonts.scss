@@ -1,0 +1,38 @@
+//Variables Font
+$font: "Montserrat";
+$fontItalic: "BrushScriptMT";
+
+@font-face {
+    font-display: swap;
+    font-family: $font;
+    src: url("./../fonts/" + $font + "-ExtraBold.svg") format("svg"), url("./../fonts/" + $font + "-ExtraBold.woff") format("woff"), url("./../fonts/" + $font + "-ExtraBold.woff2") format("woff2");
+    font-weight: 800;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: $font;
+    src: url("./../fonts/" + $font + "-Bold.svg") format("svg"), url("./../fonts/" + $font + "-Bold.woff") format("woff"), url("./../fonts/" + $font + "-Bold.woff2") format("woff2");
+    font-weight: 600;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: $font;
+    src: url("./../fonts/" + $font + "-SemiBold.svg") format("svg"), url("./../fonts/" + $font + "-SemiBold.woff") format("woff"), url("./../fonts/" + $font + "-SemiBold.woff2") format("woff2");
+    font-weight: 500;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: $font;
+    src: url("./../fonts/" + $font + "-Regular.svg") format("svg"), url("./../fonts/" + $font + "-Regular.woff") format("woff"), url("./../fonts/" + $font + "-Regular.woff2") format("woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: $fontItalic;
+    src: url("./../fonts/" + $fontItalic + ".svg") format("svg"), url("./../fonts/" + $fontItalic + ".woff") format("woff"), url("./../fonts/" + $fontItalic + ".woff2") format("woff2");
+    font-weight: 400;
+}

@@ -1,0 +1,25 @@
+@mixin hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+@mixin visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+@mixin background($size, $position-x, $position-y) {
+    background-repeat: no-repeat;
+    background-size: $size;
+    background-position: $position-x, $position-y;
+}
+
+@mixin icon($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin icon-square($size) {
+    width: $size;
+    height: $size;
+}

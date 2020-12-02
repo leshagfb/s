@@ -1,0 +1,23 @@
+.modal {
+    @include hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity .33s, visibility .33s;
+}
+
+.modal__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: inherit;
+    height: inherit;
+    background-color: rgba(0,0,0,.75);
+}
+
+.modal__box {
+    background-color: $colorWhite;
+}
+

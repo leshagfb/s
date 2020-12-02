@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: $font, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+body {
+    position: relative;
+    overflow-x: hidden;
+    min-width: 320px;
+}
+
+input, button, textarea {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+input {
+    &::placeholder {
+        color: $colorPlaceholder;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+._hidden {
+    opacity: 0 !important;
+    visibility: hidden !important;
+    transition: opacity .325s ease-in-out, visibility .325s ease-in-out;
+}
+
+._visible {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: opacity .325s ease-in-out, visibility .325s ease-in-out;
+}

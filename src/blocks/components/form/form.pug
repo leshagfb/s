@@ -1,0 +1,12 @@
+mixin form()
+    form.form(action="javascript:void(null);" method="post" id=id)
+        header.form__header
+        .form__controls
+            .form__field
+                .form__control
+                    input(type="text" name="name" placeholder="Имя" required).form__input
+            .form__field
+                .form__control
+                    input(type="text" name="name" placeholder="Телефон").form__input.input_mask_phone
+            .form__submit
+                button(type="submit") Отправить
